@@ -1,0 +1,11 @@
+﻿@page "/exercise03-02"
+@using Exercises.Classes.Chapter03
+
+<h3>Students</h3>
+<p>Student 1: name: @student1.FullName age: @student1.age</p>
+<p>Student 2: name: @student2.FullName age: @student2.age</p>
+
+@code {
+    Student student1 = new Student();
+    Student student2 = new Student("John", "Doe", 42);
+}
