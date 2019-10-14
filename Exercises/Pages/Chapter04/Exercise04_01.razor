@@ -17,7 +17,7 @@
 @code {
     string result = string.Empty;
     double value1 = default, value2 = default;
-    Calculator calc = new Calculator();
+    //Calculator calc = new Calculator();
 
     void Add()
     {
@@ -26,7 +26,8 @@
         //var output = total.ToString();
         //result = output;
         //result = $"{value1} + {value2} = {total}";
-        calc.Add(value1, value2, out result);
+        //calc.Add(value1, value2, out result);
+        Calculator.Add(value1, value2, out result);
     }
 
     void Substract()
@@ -34,7 +35,8 @@
         //var calc = new Calculator();
         //var total = calc.Substract(value1, value2);
         //result = $"{value1} - {value2} = {total}";
-        calc.Substract(value1, value2, out result);
+        //calc.Substract(value1, value2, out result);
+        Calculator.Substract(value1, value2, out result);
     }
 
     void Divide()
@@ -42,7 +44,8 @@
         //var calc = new Calculator();
         //var total = calc.Divide(value1, value2);
         //result = $"{value1} / {value2} = {total}";
-        calc.Divide(value1, value2, out result);
+        //calc.Divide(value1, value2, out result);
+        Calculator.Divide(value1, value2, out result);
     }
 
     void Multiply()
@@ -50,6 +53,7 @@
         //var calc = new Calculator();
         //var total = calc.Multiply(value1, value2);
         //result = $"{value1} x {value2} = {total}";
-        calc.Multiply(value1, value2, out result);
+        //calc.Multiply(value1, value2, out result);
+        Calculator.Multiply(value1, value2, out result);
     }
 }
