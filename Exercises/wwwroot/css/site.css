@@ -175,3 +175,28 @@ app {
     width: 108px;
     height: 33px;
 }
+
+.btn-padding {
+    padding: 6px 12px;
+}
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
+.bottom-margin-small {
+    margin-bottom: 10px;
+}
+
+.btn-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn-top-margin {
+    margin-top: 32px;
+}
+
+.input-width-small {
+    width: 75px;
+}
