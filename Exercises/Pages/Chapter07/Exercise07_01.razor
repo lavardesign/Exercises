@@ -23,7 +23,7 @@
 <br />
 <button class="btn-sm btn-light calc-btn-size-sm" @onclick="ClearDigits">C</button>
 <button class="btn-sm btn-light calc-btn-size-sm" style="padding-left:4px;" @onclick="ClearCalculation">CC</button>
-<button class="btn-sm btn-light calc-btn-size-sm" @onclick="AddDecimal">.</button>
+<button class="btn-sm btn-light calc-btn-size-sm" @onclick="AddDecimal">,</button>
 <button class="btn-sm btn-light calc-btn-size-sm" @onclick="Calculate">=</button>
 
 <p>@output</p>
@@ -42,8 +42,8 @@
 
     void AddDecimal()
     {
-        if (!input.Contains('.'))
-            input += '.';
+        if (!input.Contains(','))
+            input += ',';
     }
 
     void DisplayOutput()
